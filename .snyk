@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - summit > fbgraph > request > hawk:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:http-signature:20150122':
+    - summit > fbgraph > request > http-signature:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:mime:20170907':
+    - summit > mime:
+        patched: '2020-11-09T20:49:06.933Z'
+    - summit > fbgraph > request > form-data > mime:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:moment:20160126':
+    - summit > moment:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:negotiator:20160616':
+    - summit > bogart-edge > negotiator:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:request:20160119':
+    - summit > bogart-edge > request:
+        patched: '2020-11-09T20:49:06.933Z'
+    - summit > fbgraph > request:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:tunnel-agent:20170305':
+    - summit > fbgraph > request > tunnel-agent:
+        patched: '2020-11-09T20:49:06.933Z'
+  'npm:uglify-js:20151024':
+    - summit > handlebars > uglify-js:
+        patched: '2020-11-09T20:49:06.933Z'
